@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
@@ -15,14 +16,17 @@
     <h1>TOODS</h1>
     <h3 id="dt"></h3>
     <div class="plus">
-    <input type="text" placeholder="Add Task" class="bar"></input>
-    <button class="btn" id="addbtn">+</button>
+    <input type="text" placeholder="Add Task" class="bar" id="inpt"></input>
+    <button class="btn" id="addbtn" onclick="add()">+</button>
     </div>
     <input disabled type="text" class="gg">
     <div class="links">
         <a href="https://github.com/"><button class="github"></button></a>
         <a href="https://www.instagram.com/"><button class="insta"></button></a>
         <a href="https://in.linkedin.com/"><button class="linkedin"></button></a>
+    </div>
+    <div class="hh">
+    <div class="tasks" ></div>
     </div>
     <script src="toods.js"></script>
 </body>
